@@ -11,20 +11,8 @@ export default function Header() {
       <nav className="navbar">
         <ul className="menu">
           <li>
-            <a href="https://github.com/AGuekdjian" target="_blank">
-              <FaGithub fontSize="30px" color="white" cursor="pointer" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/anthony-guekdjian/"
-              target="_blank"
-            >
-              <FaLinkedinIn
-                fontSize="30px"
-                color="dodgerblue"
-                cursor="pointer"
-              />
+            <a href="#" target="_blank">
+              Inicio
             </a>
           </li>
         </ul>

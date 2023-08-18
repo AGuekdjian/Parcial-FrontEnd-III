@@ -5,7 +5,7 @@ function TaskList({ tasks, deleteTask }) {
   return (
     <section className="section_task">
       {tasks.length === 0 ? (
-        <p>No hay tareas aun...</p>
+        <p>No hay ningun mensaje para mostrar...</p>
       ) : (
         <div className="task_container">
           {tasks.map(({ id, titleFix, description }, index) => {

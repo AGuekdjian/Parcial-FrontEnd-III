@@ -5,12 +5,12 @@ function Card({ title, description, id, deleteTask }) {
   return (
     <article className="card_task">
       <div className="content_card">
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <h1>Hola {title}!</h1>
+        <p>Tu color elegido es {description}</p>
       </div>
       <div className="btn_container">
         <button onClick={() => deleteTask(id)} className="btn_delete">
-          Eliminar Tarea
+          Eliminar mensaje
         </button>
       </div>
     </article>

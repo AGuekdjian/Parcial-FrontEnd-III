@@ -6,7 +6,7 @@ export const validate = (title, description) => {
         }
     }
 
-    if (! description || description.length < 6) {
+    if (! description || description.length < 4) {
         msg.type = 'Error'
         msg.body.message = "Por favor chequea que la información sea correcta.";
     }

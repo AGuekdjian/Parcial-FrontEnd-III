@@ -37,7 +37,7 @@ function App() {
   };
 
   const deleteTask = (taskId) => {
-    const res = confirm("Esta seguro que desea eliminar la tarea?");
+    const res = confirm("Esta seguro que desea eliminar el mensaje?");
     res ? setTasks(tasks.filter((task) => task.id != taskId)) : null;
   };
 

@@ -4,7 +4,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2023 Copyright: Anthony Guekdjian para Digital House</p>
+      <p>&copy; 2023 Copyright: Hernan Giunta</p>
     </footer>
   );
 }
